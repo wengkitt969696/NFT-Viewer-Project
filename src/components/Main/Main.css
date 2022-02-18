@@ -1,0 +1,74 @@
+.main {
+  max-height: 50vh;
+  padding: 1px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.punkHighlight {
+  display: flex;
+  flex: 0.25;
+  align-items: center;
+  justify-content: center;
+}
+
+.punkContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+
+.punkDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.75;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 900;
+  color: "white";
+  padding: 20px;
+}
+
+.itemNumber {
+  color: #a1a5b0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.selectedPunk {
+  object-fit: contain;
+  max-width: min(30vw, 40vh);
+  max-height: 30vw;
+}
+
+.owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ownerImageContainer {
+  padding: 20px;
+}
+
+.ownerImageContainer > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+}
+
+.punkDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
