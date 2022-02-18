@@ -26,6 +26,7 @@ function Header({ setSearchText }) {
             href="https://opensea.io/explore-collections"
             target="_blank"
             className="urlLink"
+            rel="noreferrer"
           >
             Marketplace
           </a>
@@ -35,6 +36,7 @@ function Header({ setSearchText }) {
             href="https://opensea.io/login?referrer=%2Fasset%2Fcreate"
             target="_blank"
             className="urlLink"
+            rel="noreferrer"
           >
             Create
           </a>
