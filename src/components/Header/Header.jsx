@@ -12,7 +12,7 @@ function Header({ setSearchText }) {
       </div>
       <div className="searchBar">
         <div className="searchIconContainer">
-          <img src={searchIcon} />
+          <img src={searchIcon} alt="" />
         </div>
         <input
           className="searchInput"

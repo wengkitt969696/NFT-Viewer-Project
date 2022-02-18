@@ -23,10 +23,12 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const searchedPunkList = masterPunkListData.filter((data) =>
-      data.name.toLowerCase().trim().includes(searchText.toLowerCase().trim())
-    );
-    setPunkListData(searchedPunkList);
+    if (masterPunkListData) {
+      const searchedPunkList = masterPunkListData.filter((data) =>
+        data.name.toLowerCase().trim().includes(searchText.toLowerCase().trim())
+      );
+      setPunkListData(searchedPunkList);
+    }
   }, [searchText]);
 
   return (
